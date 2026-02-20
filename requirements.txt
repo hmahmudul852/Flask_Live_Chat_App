@@ -1,0 +1,11 @@
+Flask>=3.1.0
+Flask-SocketIO>=5.6.0
+python-socketio>=5.16.1
+python-engineio>=4.13.1
+eventlet>=0.33.3
+pytest>=7.0.0
+
+# Optional/dev helpers
+python-dotenv>=1.0.0
+# Use gunicorn for production WSGI server when not using eventlet/gevent
+gunicorn>=21.0.0
