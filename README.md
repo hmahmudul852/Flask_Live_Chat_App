@@ -55,3 +55,47 @@ python main.py
 ```
 
 After the server starts, open http://localhost:5000 in your browser.
+## Features
+
+- Real-time chat using Flask-SocketIO
+- Multiple chat rooms
+- User-friendly interface
+- Message broadcasting to all users in a room
+- Simple session management
+
+## Project Structure
+
+```
+Flask_Live_Chat_App/
+├── main.py              # Main application entry point
+├── requirements.txt     # Python dependencies
+├── static/              # Static files (CSS, JS)
+│   └── css/
+│       └── style.css
+├── templates/           # HTML templates
+│   ├── base.html
+│   ├── home.html
+│   └── room.html
+├── tests/               # Unit tests
+│   └── test_main.py
+└── README.md            # Project documentation
+```
+
+## Usage
+
+1. Start the server as described above.
+2. Open your browser and go to [http://localhost:5000](http://localhost:5000).
+3. Enter a username and room name to join or create a chat room.
+4. Start chatting in real time!
+
+## Testing
+
+To run unit tests:
+
+```bash
+pytest tests/
+```
+
+## License
+
+This project is licensed under the MIT License.
